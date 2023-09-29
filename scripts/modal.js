@@ -1,6 +1,22 @@
 $(document).ready(function () {
   // MODAL
   var modalText = {
+    omniverse: {
+      title: "NVIDIA Omniverse Kondux Web3 Extension",
+      tag: "NVIDIA OMNIVERSE WEB3 EXTENSTION.",
+      detail:
+        "A unique webpage for a Texas drone business. Developed completely from ground up.",
+      link: "https://www.kondux.io",
+      codeLink: "Private Repo",
+    },
+    dApp: {
+      title: "Kondux Web3 dApp",
+      tag: "KONDUX WEB3 DAPP.",
+      detail:
+        "A decentralized web3 application that helps creators use their 3D assets collaboratively while having true ownership of their digital assets.",
+      link: "https://www.kondux.io/viewport",
+      codeLink: "Private Repo",
+    },
     tdi: {
       title: "Texas Drone Imaging",
       tag: "TDI WEBSITE.",

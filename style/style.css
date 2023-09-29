@@ -233,7 +233,7 @@ body {
 }
 
 .highlight {
-  color: #e31b6d;
+  color: #04c2c9;
 }
 
 .header {
@@ -507,6 +507,13 @@ nav .active {
 }
 .modal-wrap.visible .mask {
   opacity: 1;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin-top: 0;
 }
 
 section {
@@ -788,6 +795,16 @@ section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
 }
 section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
   background: url("../img/thumb-12.jpg") center center/cover;
+}
+
+section:nth-of-type(3) #gallery .mix:nth-child(13) .card {
+  background: url("../img/thumb-13.jpg") center center/cover;
+}
+section:nth-of-type(3) #gallery .mix:nth-child(14) .card {
+  background: url("../img/thumb-14.jpg") center center/cover;
+}
+section:nth-of-type(3) #gallery .mix:nth-child(15) .card {
+  background: url("../img/thumb-15.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
@@ -1157,7 +1174,7 @@ footer .footnote .highlight {
     display: flex;
     justify-content: center;
     /* max-width: 100%; */
-    margin-top: 10vh;
+    margin-bottom: 2vh;
   }
 
   section:nth-of-type(1) .button {
